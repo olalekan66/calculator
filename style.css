@@ -23,11 +23,11 @@ h1{
     font-weight: 700;
 }
 .calculator{
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(109, 105, 105);
-    border-radius: 24px;
+    background-color: rgb(12, 0, 0);
+    border-radius: 22px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -51,19 +51,20 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
+    gap: 12px;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: auto;
 }
 .buttons div{
     padding: 10px 5px;
     flex: 0 0 auto;
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 14px;
     width: 20%;
     text-align: center;
     font-weight: bold;
     box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1%;
 }
 .buttons div:hover{
     background-color: rgb(187, 182, 182);
@@ -94,7 +95,7 @@ h1{
 }
 .buttons .del{
     flex: 1 1 auto;
-    background-color: whitesmoke;
+    background-color: rgb(85, 154, 185);
     color: black;
 }
 .buttons .del:hover{

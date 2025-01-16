@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    margin: 50px 0;
+    background-color:aliceblue;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.calculator{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 105, 105);
+    border-radius: 24px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.3);
+}
+#display{
+    font-weight: bold;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 0 25px 20px 25px;
+    width:100%;
+}
+.buttons{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.buttons div{
+    padding: 10px 5px;
+    flex: 0 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.buttons div:hover{
+    background-color: rgb(187, 182, 182);
+
+}
+.buttons .operator{
+    background-color: rgb(29, 14, 241);
+    color: aliceblue;
+}
+.buttons .operator:hover{
+    background-color: rgb(27, 18, 151);
+    
+}
+.buttons .special{
+    flex: 1 1 auto;
+    background-color: rgb(3, 129, 91);
+    color: aliceblue;
+}
+.buttons .special:hover{
+    background-color: rgb(3, 117, 91);
+}
+.buttons .callback{
+    background-color: rgb(76, 7, 204);
+    color: aliceblue;
+}
+.buttons .callback:hover{
+    background-color: rgb(75, 4,153);
+}
+.buttons .del{
+    flex: 1 1 auto;
+    background-color: whitesmoke;
+    color: black;
+}
+.buttons .del:hover{
+    background-color:white;
+}

@@ -6,12 +6,10 @@ function handleInput(input, isKeyboard = false, event = null) {
   const calculatorKeys = new Set(['Enter', 'Backspace', 'Delete', '=']);
 
   if (isKeyboard && event) {
-    // Explicitly ignore function keys
     if (event.key.startsWith('F')) {
       return;
     }
 
-    // Only handle calculator-related keys
     if (!validKeys.test(event.key) && !calculatorKeys.has(event.key)) {
       return;
     }

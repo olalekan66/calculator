@@ -101,3 +101,15 @@ h1{
 .buttons .del:hover{
     background-color:white;
 }
+@media (max-width: 576px) { 
+    .calculator{
+        width: 86vw;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+    .calculator{
+        width: 84vw;
+    }
+ }
